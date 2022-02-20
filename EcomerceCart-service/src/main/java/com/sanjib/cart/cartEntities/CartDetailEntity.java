@@ -29,4 +29,5 @@ public class CartDetailEntity {
 	
     private String localAdd;
     private String add3;
+    private String add1;
 }
