@@ -25,4 +25,6 @@ public class CartDetailEntity {
     private String productName;
     private Integer quantity;
     private String natiAdd;
+    private String natAdd2;	
+	
 }
