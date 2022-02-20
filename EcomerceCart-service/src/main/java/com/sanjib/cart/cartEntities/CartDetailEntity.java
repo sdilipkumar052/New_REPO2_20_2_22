@@ -24,5 +24,4 @@ public class CartDetailEntity {
     private Integer productId;
     private String productName;
     private Integer quantity;
-    private String addess;
 }
