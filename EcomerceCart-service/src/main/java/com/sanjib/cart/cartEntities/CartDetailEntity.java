@@ -27,4 +27,5 @@ public class CartDetailEntity {
     private String natiAdd;
     private String natAdd2;	
 	
+    private String localAdd;
 }

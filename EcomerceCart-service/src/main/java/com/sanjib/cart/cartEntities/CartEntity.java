@@ -21,6 +21,7 @@ public class CartEntity {
 	@GeneratedValue
 	private Integer cartId;
 	private Integer userId;
+	private String add1;
 	
 	@OneToMany(targetEntity = CartDetailEntity.class, cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "cartid_fk", referencedColumnName = "cartId")
