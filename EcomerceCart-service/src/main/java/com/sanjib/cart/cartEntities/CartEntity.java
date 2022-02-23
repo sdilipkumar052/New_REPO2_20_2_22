@@ -23,6 +23,8 @@ public class CartEntity {
 	private Integer userId;
 	private String add1;
 	
+	private String add34;
+	
 	@OneToMany(targetEntity = CartDetailEntity.class, cascade = CascadeType.ALL, orphanRemoval = true)
 	@JoinColumn(name = "cartid_fk", referencedColumnName = "cartId")
 	private List<CartDetailEntity> cartDetailEntity;
